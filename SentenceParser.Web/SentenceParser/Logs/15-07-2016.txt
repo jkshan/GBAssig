@@ -1,0 +1,184 @@
+﻿[15/07/2016 09:35:08]: As an organization ABC LTD, we would like to build an application that exposes API to the clients to be able to get the following information in given sentences.
+Sentences should always be sent by the clients in request. 
+a)the word(s) with  minimum number of occurrences in the sentence. 
+b)the word(s) with  median occurrences in the sentence. 
+c)the word(s) with  maximum number of occurrences in the sentence.
+The sentences sent by clients shall not be more than 10 MB. 
+The actual sentences sent by clients shall be logged to a text file.
+This is Phase 1 of the project implementation.
+
+During Phase 2 implementation, the organization would like these API's to be interoperable with a client built on any language.
+And add more security before processing an request.
+Every client shall be authenticated first. 
+The organization would like to omit the words in the sentences that are sent with any kind of sensitive information (e.g if sentence contains password data or creditcard data), as soon as the sentences have been received by application.
+The sentences sent by clients shall not be more than 100 MB. 
+
+
+
+
+
+
+
+
+
+[15/07/2016 09:35:26]: As an organization ABC LTD, we would like to build an application that exposes API to the clients to be able to get the following information in given sentences.
+Sentences should always be sent by the clients in request. 
+a)the word(s) with  minimum number of occurrences in the sentence. 
+b)the word(s) with  median occurrences in the sentence. 
+c)the word(s) with  maximum number of occurrences in the sentence.
+The sentences sent by clients shall not be more than 10 MB. 
+The actual sentences sent by clients shall be logged to a text file.
+This is Phase 1 of the project implementation.
+
+During Phase 2 implementation, the organization would like these API's to be interoperable with a client built on any language.
+And add more security before processing an request.
+Every client shall be authenticated first. 
+The organization would like to omit the words in the sentences that are sent with any kind of sensitive information (e.g if sentence contains password data or creditcard data), as soon as the sentences have been received by application.
+The sentences sent by clients shall not be more than 100 MB. 
+
+
+
+
+
+
+
+
+
+[15/07/2016 09:36:59]: As an organization ABC LTD, we would like to build an application that exposes API to the clients to be able to get the following information in given sentences.
+Sentences should always be sent by the clients in request. 
+a)the word(s) with  minimum number of occurrences in the sentence. 
+b)the word(s) with  median occurrences in the sentence. 
+c)the word(s) with  maximum number of occurrences in the sentence.
+The sentences sent by clients shall not be more than 10 MB. 
+The actual sentences sent by clients shall be logged to a text file.
+This is Phase 1 of the project implementation.
+
+During Phase 2 implementation, the organization would like these API's to be interoperable with a client built on any language.
+And add more security before processing an request.
+Every client shall be authenticated first. 
+The organization would like to omit the words in the sentences that are sent with any kind of sensitive information (e.g if sentence contains password data or creditcard data), as soon as the sentences have been received by application.
+The sentences sent by clients shall not be more than 100 MB. 
+
+
+
+
+
+
+
+
+
+[15/07/2016 09:38:28]: As an organization ABC LTD, we would like to build an application that exposes API to the clients to be able to get the following information in given sentences.
+Sentences should always be sent by the clients in request. 
+a)the word(s) with  minimum number of occurrences in the sentence. 
+b)the word(s) with  median occurrences in the sentence. 
+c)the word(s) with  maximum number of occurrences in the sentence.
+The sentences sent by clients shall not be more than 10 MB. 
+The actual sentences sent by clients shall be logged to a text file.
+This is Phase 1 of the project implementation.
+
+During Phase 2 implementation, the organization would like these API's to be interoperable with a client built on any language.
+And add more security before processing an request.
+Every client shall be authenticated first. 
+The organization would like to omit the words in the sentences that are sent with any kind of sensitive information (e.g if sentence contains password data or creditcard data), as soon as the sentences have been received by application.
+The sentences sent by clients shall not be more than 100 MB. 
+
+
+
+
+
+
+
+
+
+[15/07/2016 09:39:19]: As an organization ABC LTD, we would like to build an application that exposes API to the clients to be able to get the following information in given sentences.
+Sentences should always be sent by the clients in request. 
+a)the word(s) with  minimum number of occurrences in the sentence. 
+b)the word(s) with  median occurrences in the sentence. 
+c)the word(s) with  maximum number of occurrences in the sentence.
+The sentences sent by clients shall not be more than 10 MB. 
+The actual sentences sent by clients shall be logged to a text file.
+This is Phase 1 of the project implementation.
+
+During Phase 2 implementation, the organization would like these API's to be interoperable with a client built on any language.
+And add more security before processing an request.
+Every client shall be authenticated first. 
+The organization would like to omit the words in the sentences that are sent with any kind of sensitive information (e.g if sentence contains password data or creditcard data), as soon as the sentences have been received by application.
+The sentences sent by clients shall not be more than 100 MB. 
+
+
+
+
+
+
+
+
+
+[15/07/2016 09:39:27]: As an organization ABC LTD, we would like to build an application that exposes API to the clients to be able to get the following information in given sentences.
+Sentences should always be sent by the clients in request. 
+a)the word(s) with  minimum number of occurrences in the sentence. 
+b)the word(s) with  median occurrences in the sentence. 
+c)the word(s) with  maximum number of occurrences in the sentence.
+The sentences sent by clients shall not be more than 10 MB. 
+The actual sentences sent by clients shall be logged to a text file.
+This is Phase 1 of the project implementation.
+
+During Phase 2 implementation, the organization would like these API's to be interoperable with a client built on any language.
+And add more security before processing an request.
+Every client shall be authenticated first. 
+The organization would like to omit the words in the sentences that are sent with any kind of sensitive information (e.g if sentence contains password data or creditcard data), as soon as the sentences have been received by application.
+The sentences sent by clients shall not be more than 100 MB. 
+
+
+
+
+
+
+
+
+
+[15/07/2016 09:39:30]: As an organization ABC LTD, we would like to build an application that exposes API to the clients to be able to get the following information in given sentences.
+Sentences should always be sent by the clients in request. 
+a)the word(s) with  minimum number of occurrences in the sentence. 
+b)the word(s) with  median occurrences in the sentence. 
+c)the word(s) with  maximum number of occurrences in the sentence.
+The sentences sent by clients shall not be more than 10 MB. 
+The actual sentences sent by clients shall be logged to a text file.
+This is Phase 1 of the project implementation.
+
+During Phase 2 implementation, the organization would like these API's to be interoperable with a client built on any language.
+And add more security before processing an request.
+Every client shall be authenticated first. 
+The organization would like to omit the words in the sentences that are sent with any kind of sensitive information (e.g if sentence contains password data or creditcard data), as soon as the sentences have been received by application.
+The sentences sent by clients shall not be more than 100 MB. 
+
+
+
+
+
+
+
+
+
+[15/07/2016 09:39:33]: As an organization ABC LTD, we would like to build an application that exposes API to the clients to be able to get the following information in given sentences.
+Sentences should always be sent by the clients in request. 
+a)the word(s) with  minimum number of occurrences in the sentence. 
+b)the word(s) with  median occurrences in the sentence. 
+c)the word(s) with  maximum number of occurrences in the sentence.
+The sentences sent by clients shall not be more than 10 MB. 
+The actual sentences sent by clients shall be logged to a text file.
+This is Phase 1 of the project implementation.
+
+During Phase 2 implementation, the organization would like these API's to be interoperable with a client built on any language.
+And add more security before processing an request.
+Every client shall be authenticated first. 
+The organization would like to omit the words in the sentences that are sent with any kind of sensitive information (e.g if sentence contains password data or creditcard data), as soon as the sentences have been received by application.
+The sentences sent by clients shall not be more than 100 MB. 
+
+
+
+
+
+
+
+
+
