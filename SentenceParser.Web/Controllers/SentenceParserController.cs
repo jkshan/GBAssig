@@ -1,12 +1,9 @@
 ﻿using SentenceParser.Business;
-using SentenceParser.Business.DTO;
 using SentenceParser.Business.Validation;
 using SentenceParser.Infrastructure;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.Mvc;
 
@@ -23,23 +20,43 @@ namespace SentenceParser.Controllers
         // POST: SentenceParser/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Parse(FormCollection collection)
+        public ActionResult Parse(HttpPostedFileBase file)
         {
             try
             {
-                string sentence = collection["sentence"];
+                if(file == null || file.ContentLength == 0)
+                {
+                    ViewBag.ErrorMessage = "Please Select Valid File";
+                    return View();
+                }
+
+                if(!file.FileName.EndsWith(".txt", StringComparison.OrdinalIgnoreCase))
+                {
+                    ViewBag.ErrorMessage = "File Type Not Supported";
+                    return View();
+                }
+
+                if((file.InputStream.Length) > Convert.ToInt32(ConfigHelper.GetValue("MaxSize")))
+                {
+                    ViewBag.ErrorMessage = "File size exceeded the allowed limit";
+                    return View();
+                }
+
+                string sentence = new StreamReader(file.InputStream).ReadToEnd();
 
                 var logger = new LogHelper();
                 logger.WriteLog(sentence);
 
                 var Validator = new SentenceValidator();
 
-                var validationResult = Validator.Validate(sentence, Convert.ToInt32(ConfigHelper.GetValue("MaxSizeInMB")));
+                var validationResult = Validator.Validate(sentence);
+
+                sentence = null;
 
                 if(validationResult.IsValid)
                 {
-                    var parser = new Parser(ExcludeLogic);
-                    var result = parser.Parse(sentence);
+                    var parser = new Parser(file.InputStream);
+                    var result = parser.CountWords();
                     return View("Success", result);
                 }
                 else
@@ -53,26 +70,6 @@ namespace SentenceParser.Controllers
                 ViewBag.ErrorMessage = "Exception occurred, please contact admin";
                 return View();
             }
-        }
-
-        [NonAction]
-        public bool ExcludeLogic(string word)
-        {
-            //Matches 1234-5678-9012-3456, 1234 5678 9012 3456, 1234567890123456
-            var cardCheck = new Regex(@"^[0-9]{4}([\-\s]?[0-9]{4}){3}$");
-
-            if(cardCheck.IsMatch(word))
-            {
-                return false;
-            }
-            //Matches Password expression that requires one lower case letter, one upper case letter, one digit, 4-14 length.
-            var passWord = new Regex(@"^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,14}$");
-
-            if(passWord.IsMatch(word))
-            {
-                return false;
-            }
-            return true;
         }
     }
 }
